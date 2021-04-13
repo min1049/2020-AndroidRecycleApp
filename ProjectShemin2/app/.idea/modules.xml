@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1788353042/ProjectShemin2.iml" filepath="$PROJECT_DIR$/.idea/modules/1788353042/ProjectShemin2.iml" group="ProjectShemin2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app.iml" group="ProjectShemin2/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1611855129/myapplication.iml" filepath="$PROJECT_DIR$/.idea/modules/-1611855129/myapplication.iml" group="ProjectShemin2/myapplication" />
+    </modules>
+  </component>
+</project>

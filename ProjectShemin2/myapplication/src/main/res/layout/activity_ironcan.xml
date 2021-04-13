@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/ScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="16sp"
+            android:paddingRight="16sp"
+            android:paddingTop="16sp"
+            android:orientation="vertical" >
+
+            /* 맨위 시작 */
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:orientation="horizontal"
+                android:paddingLeft="16sp"
+                android:paddingTop="16sp"
+                android:paddingRight="16sp">
+
+                <ImageView
+                    android:id="@+id/image_paper"
+                    android:layout_width="33sp"
+                    android:layout_height="33sp"
+                    android:src="@drawable/markcan" />
+
+                <TextView
+                    android:id="@+id/text_paper"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10sp"
+                    android:text="금속캔,고철"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            /* 주 내용 */
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="16sp"
+                android:paddingTop="10sp"
+                android:paddingBottom="50sp"
+                android:paddingRight="16sp">
+
+                /*철캔, 알류미늄 파트*/
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5sp"
+                        android:text="| 철캔,알루미늄캔(음료,주류캔,식료품캔)"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="345sp"
+                        android:layout_height="wrap_content"
+                        android:text="내용물을 비우고 물로 헹구어 이물질을 제거후 배출"
+                        android:textSize="13sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="345sp"
+                        android:layout_height="wrap_content"
+                        android:text="플라스틱 뚜껑와 같은 다른 재질은 제거한 후 배출"
+                        android:textSize="13sp"
+                        android:textColor="@color/black"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="10sp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="170sp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/newspaper" />
+
+                        <ImageView
+                            android:layout_width="177sp"
+                            android:layout_height="114sp"
+                            android:src="@drawable/noads" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                /* 기타 캔류 파트 */
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop ="25sp"
+                        android:paddingBottom="5sp"
+                        android:text="| 기타캔류(부탄가스 등등)"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="345sp"
+                        android:layout_height="wrap_content"
+                        android:text="내용물을 제거한 후 배출합니다"
+                        android:textSize="13sp"
+                        android:textColor="@color/black"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="10sp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="112sp"
+                            android:layout_height="95sp"
+                            android:src="@drawable/notes" />
+
+                        <ImageView
+                            android:layout_width="112sp"
+                            android:layout_height="95sp"
+                            android:src="@drawable/notes2" />
+
+                        <ImageView
+                            android:layout_width="112sp"
+                            android:layout_height="95sp"
+                            android:src="@drawable/notes3" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                /* 고철 파트 */
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop ="25sp"
+                        android:paddingBottom="5sp"
+                        android:text="| 고철(공기구,철사,못 등)"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="345sp"
+                        android:layout_height="wrap_content"
+                        android:text="이물질이 섞이지 않도록 한 후 배출"
+                        android:textSize="13sp"
+                        android:textColor="@color/black"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="10sp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="170sp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/box" />
+
+                        <ImageView
+                            android:layout_width="177sp"
+                            android:layout_height="114sp"
+                            android:src="@drawable/boxflip" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                /* 비철금속 파트 */
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop ="25sp"
+                        android:paddingBottom="5sp"
+                        android:text="| 비철금속(알미늄,스텐류 등)"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="345sp"
+                        android:layout_height="wrap_content"
+                        android:text="이물질이 섞이지 않도록 한 후 배출"
+                        android:textSize="13sp"
+                        android:textColor="@color/black"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="10sp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="170sp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/box" />
+
+                        <ImageView
+                            android:layout_width="177sp"
+                            android:layout_height="114sp"
+                            android:src="@drawable/boxflip" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/pre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
